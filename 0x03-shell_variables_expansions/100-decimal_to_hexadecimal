@@ -1,2 +1,3 @@
 #!/bin/bash
-tr 'A-Ma-mN-Zn-z' 'N-Zn-zA-Ma-m'
+DECIMAL=$1
+echo "obase=16;$DECIMAL |bc
